@@ -1,0 +1,70 @@
+.ProductCard{
+    border:1px solid rgb(223, 215, 215);
+    padding:1rem;
+    width:360px;
+    border-radius: 24px;
+    margin: 0.5rem;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.ProductCardBannerContainer{
+    position: relative;
+}
+.ProductCardBanner{
+    width:100%;
+    border-radius: 24px;
+}
+.ProductDiscount{
+    width:20%;
+    font-size: small;
+    border-radius: 10px;
+    text-align: center;
+    background-color: yellow;
+    color:black;
+    position:absolute;
+    top: 0;
+    right: 11px;
+}
+.ProductCardBrandName{
+    font-size: small;
+    color:rgb(177, 189, 198);
+    margin: 0;
+
+}
+.ProductCardName{
+    font-size: large;
+
+}
+.ProductPrice{
+    font-size: larger;
+    color:chartreuse;
+    margin-bottom: 0;
+}
+.ProductCardStocks{
+    
+    width:40%;
+    background-color: orangered;
+    border-radius: 3px;
+   
+}
+.ProductStock{
+    margin: 0;
+    padding: 2px;
+    color:white;
+}
+.ProductDesc{
+    font-size: small;
+    margin-top:1rem;
+}
+.ProductUpdateBtn{
+    
+    border-radius: 5px;
+    padding: 0.5rem;
+    border: none;
+}
+.ProductDeleteBtn{
+    border-radius: 5px;
+    padding: 0.5rem;
+    border: none;
+
+}

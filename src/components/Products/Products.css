@@ -1,0 +1,22 @@
+.ProductsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    width: 100%;
+    /* position: absolute; */
+    
+}
+.paginationContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0;
+}
+@media (max-width:768px) {
+    .ProductsContainer{
+        justify-content: center;
+    }
+  
+   
+}

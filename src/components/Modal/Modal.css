@@ -1,0 +1,8 @@
+.ModalTopContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#my-input{
+    margin: 1rem;
+}
